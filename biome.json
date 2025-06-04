@@ -7,7 +7,7 @@
   },
   "files": {
     "ignoreUnknown": false,
-    "ignore": ["tsconfig.node.json", "tsconfig.app.json", "bun.lock"]
+    "ignore": ["tsconfig.node.json", "tsconfig.app.json"]
   },
   "formatter": {
     "enabled": true,
