@@ -1,8 +1,13 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
+import { scan } from "react-scan";
 import "./index.css";
 import { RouterProvider, createRouter } from "@tanstack/react-router";
 import { routeTree } from "./routeTree.gen";
+
+scan({
+  enabled: true,
+});
 
 const router = createRouter({ routeTree });
 
