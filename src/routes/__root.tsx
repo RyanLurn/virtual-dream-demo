@@ -1,19 +1,17 @@
-import { Link, Outlet, createRootRoute } from "@tanstack/react-router";
+import { ModeToggle } from "@/components/theme/mode-toggle";
+import { ThemeProvider } from "@/components/theme/theme-provider";
+import { Outlet, createRootRoute } from "@tanstack/react-router";
 import { TanStackRouterDevtools } from "@tanstack/react-router-devtools";
 
 export const Route = createRootRoute({
   component: () => (
     <>
-      <div className="p-2 flex gap-2">
-        <Link to="/" className="[&.active]:font-bold">
-          Home
-        </Link>{" "}
-        <Link to="/about" className="[&.active]:font-bold">
-          About
-        </Link>
-      </div>
-      <hr />
-      <Outlet />
+      <ThemeProvider defaultTheme="dark" storageKey="vite-ui-theme">
+        <div className="fixed top-2 right-2">
+          <ModeToggle />
+        </div>
+        <Outlet />
+      </ThemeProvider>
       <TanStackRouterDevtools />
     </>
   ),
