@@ -11,19 +11,27 @@
     "check": "bunx --bun biome check --write ."
   },
   "dependencies": {
+    "@ai-sdk/groq": "^1.2.9",
+    "@legendapp/state": "^3.0.0-beta.31",
     "@radix-ui/react-dropdown-menu": "^2.1.15",
     "@radix-ui/react-slot": "^1.2.3",
+    "@t3-oss/env-core": "^0.13.6",
     "@tailwindcss/vite": "^4.1.8",
     "@tanstack/react-router": "^1.120.15",
     "@tanstack/react-router-devtools": "^1.120.15",
+    "ai": "^4.3.16",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "dexie": "^4.0.11",
+    "dexie-react-hooks": "^1.1.7",
     "lucide-react": "^0.513.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
     "react-scan": "^0.3.4",
     "tailwind-merge": "^3.3.0",
-    "tailwindcss": "^4.1.8"
+    "tailwindcss": "^4.1.8",
+    "uuid": "^11.1.0",
+    "zod": "^3.25.0"
   },
   "devDependencies": {
     "@biomejs/biome": "1.9.4",
