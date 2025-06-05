@@ -1,4 +1,4 @@
-import type { Dialog } from "@/features/game/types";
+import type { Dialog } from "@/features/gameplay/types";
 import Dexie, { type EntityTable } from "dexie";
 
 const database = new Dexie("GameDatabase1") as Dexie & {

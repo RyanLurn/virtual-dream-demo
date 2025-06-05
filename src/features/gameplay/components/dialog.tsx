@@ -1,5 +1,5 @@
-import { gameStore$ } from "@/features/game/stores";
-import { dialogStyle } from "@/features/game/styles";
+import { gameStore$ } from "@/features/gameplay/stores";
+import { dialogStyle } from "@/features/gameplay/styles";
 
 function Dialog({ dialog }: { dialog: string }) {
   function handleClick() {

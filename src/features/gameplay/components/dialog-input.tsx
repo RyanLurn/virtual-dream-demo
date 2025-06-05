@@ -1,6 +1,6 @@
-import handleSend from "@/features/game/functions/handle-send";
-import { gameStore$ } from "@/features/game/stores";
-import { dialogStyle } from "@/features/game/styles";
+import handleSend from "@/features/gameplay/functions/handle-send";
+import { gameStore$ } from "@/features/gameplay/stores";
+import { dialogStyle } from "@/features/gameplay/styles";
 import { cn } from "@/lib/utils";
 import { use$ } from "@legendapp/state/react";
 

@@ -1,4 +1,4 @@
-import DialogContainer from "@/features/game/components/dialog-container";
+import DialogContainer from "@/features/gameplay/components/dialog-container";
 import { createFileRoute } from "@tanstack/react-router";
 
 export const Route = createFileRoute("/")({

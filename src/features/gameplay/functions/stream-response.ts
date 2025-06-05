@@ -1,6 +1,6 @@
-import groq from "@/features/game/ai";
-import database from "@/features/game/database";
-import { streamStore$ } from "@/features/game/stores";
+import groq from "@/features/gameplay/ai";
+import database from "@/features/gameplay/database";
+import { streamStore$ } from "@/features/gameplay/stores";
 import { streamText } from "ai";
 import { v7 as uuidv7 } from "uuid";
 

@@ -1,8 +1,8 @@
-import Dialog from "@/features/game/components/dialog";
-import Name from "@/features/game/components/name";
-import database from "@/features/game/database";
-import { gameStore$ } from "@/features/game/stores";
-import { streamStore$ } from "@/features/game/stores";
+import Dialog from "@/features/gameplay/components/dialog";
+import Name from "@/features/gameplay/components/name";
+import database from "@/features/gameplay/database";
+import { gameStore$ } from "@/features/gameplay/stores";
+import { streamStore$ } from "@/features/gameplay/stores";
 import { use$ } from "@legendapp/state/react";
 import { useLiveQuery } from "dexie-react-hooks";
 import DialogInput from "./dialog-input";

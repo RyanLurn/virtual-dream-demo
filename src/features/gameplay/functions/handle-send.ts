@@ -1,5 +1,5 @@
-import database from "@/features/game/database";
-import { gameStore$ } from "@/features/game/stores";
+import database from "@/features/gameplay/database";
+import { gameStore$ } from "@/features/gameplay/stores";
 import { v7 as uuidv7 } from "uuid";
 import streamResponse from "./stream-response";
 

@@ -1,4 +1,4 @@
-import type { GameStore, StreamStore } from "@/features/game/types";
+import type { GameStore, StreamStore } from "@/features/gameplay/types";
 import { observable } from "@legendapp/state";
 
 const gameStore$ = observable<GameStore>({
