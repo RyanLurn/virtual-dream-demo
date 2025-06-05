@@ -1,3 +1,4 @@
+import DialogContainer from "@/components/game/dialog-container";
 import { createFileRoute } from "@tanstack/react-router";
 
 export const Route = createFileRoute("/")({
@@ -6,10 +7,8 @@ export const Route = createFileRoute("/")({
 
 function Index() {
   return (
-    <div className="flex h-screen items-center justify-center">
-      <h1 className="scroll-m-20 text-center text-4xl font-extrabold tracking-tight text-balance">
-        Welcome home!
-      </h1>
+    <div className="h-screen w-screen">
+      <DialogContainer />
     </div>
   );
 }
